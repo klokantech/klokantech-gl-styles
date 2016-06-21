@@ -88,7 +88,7 @@
             "type": "background",
             "interactive": true,
             "paint": {
-                "background-color": "#f8f4f0"
+                "background-color": "#F1E4CF"
             }
         },
         {
@@ -327,7 +327,7 @@
             "source-layer": "water",
             "interactive": true,
             "paint": {
-                "fill-color": "#a0c8f0"
+                "fill-color": "#BFCBD2"
             }
         },
         {
@@ -4035,7 +4035,7 @@
     ],
     "created": "2016-06-21T17:00:07.738Z",
     "id": "cippp5dil004td6m7hpsiz7r0",
-    "modified": "2016-06-21T17:01:01.058Z",
+    "modified": "2016-06-21T17:06:08.008Z",
     "owner": "tomasklanica",
     "draft": false
 }
