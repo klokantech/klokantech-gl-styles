@@ -47,14 +47,10 @@
             },
             "1456163609504.0715": {
                 "name": "Road labels",
-                "collapsed": true
+                "collapsed": false
             },
             "1444849272561.29": {
                 "name": "Place labels",
-                "collapsed": true
-            },
-            "1444849290021.1838": {
-                "name": "Road labels",
                 "collapsed": true
             },
             "1444849334699.1902": {
@@ -68,10 +64,10 @@
         }
     },
     "center": [
-        27.259961248756355,
-        44.45907191057617
+        8.054413947797059,
+        47.098444727144795
     ],
-    "zoom": 3.200528239504353,
+    "zoom": 8.746653820864093,
     "bearing": 0,
     "pitch": 0,
     "sources": {
@@ -3245,48 +3241,6 @@
             }
         },
         {
-            "id": "road_label_highway_shield",
-            "type": "symbol",
-            "metadata": {
-                "mapbox:group": "1456163609504.0715"
-            },
-            "source": "mapbox",
-            "source-layer": "road_label",
-            "minzoom": 8,
-            "interactive": true,
-            "filter": [
-                "<=",
-                "reflen",
-                6
-            ],
-            "layout": {
-                "text-field": "{ref}",
-                "text-font": [
-                    "Open Sans Semibold",
-                    "Arial Unicode MS Bold"
-                ],
-                "text-size": 11,
-                "icon-image": "motorway_{reflen}",
-                "symbol-placement": {
-                    "base": 1,
-                    "stops": [
-                        [
-                            10,
-                            "point"
-                        ],
-                        [
-                            11,
-                            "line"
-                        ]
-                    ]
-                },
-                "symbol-spacing": 500,
-                "text-rotation-alignment": "viewport",
-                "icon-rotation-alignment": "viewport"
-            },
-            "paint": {}
-        },
-        {
             "id": "place_label_other",
             "type": "symbol",
             "metadata": {
@@ -4036,7 +3990,7 @@
     ],
     "created": "2016-06-21T17:00:07.738Z",
     "id": "cippp5dil004td6m7hpsiz7r0",
-    "modified": "2016-07-01T08:17:35.490Z",
+    "modified": "2016-07-13T17:56:02.790Z",
     "owner": "tomasklanica",
     "draft": false
 }
