@@ -31,7 +31,7 @@
             },
             "1444849242106.713": {
                 "name": "Country labels",
-                "collapsed": true
+                "collapsed": false
             },
             "1444849382550.77": {
                 "name": "Water",
@@ -68,10 +68,10 @@
         }
     },
     "center": [
-        0,
-        -1.1368683772161603e-13
+        27.259961248756355,
+        44.45907191057617
     ],
-    "zoom": 0.8719051242920011,
+    "zoom": 3.200528239504353,
     "bearing": 0,
     "pitch": 0,
     "sources": {
@@ -88,7 +88,7 @@
             "type": "background",
             "interactive": true,
             "paint": {
-                "background-color": "#F1E4CF"
+                "background-color": "#e6ddda"
             }
         },
         {
@@ -106,7 +106,7 @@
                 "national_park"
             ],
             "paint": {
-                "fill-color": "#d8e8c8",
+                "fill-color": "hsl(122, 21%, 77%)",
                 "fill-opacity": 0.75
             }
         },
@@ -125,7 +125,7 @@
                 "park"
             ],
             "paint": {
-                "fill-color": "#d8e8c8"
+                "fill-color": "#b9dcba"
             }
         },
         {
@@ -197,8 +197,8 @@
                 "wood"
             ],
             "paint": {
-                "fill-color": "#6a4",
-                "fill-opacity": 0.1
+                "fill-color": "#81c784",
+                "fill-opacity": 0.25
             }
         },
         {
@@ -327,7 +327,7 @@
             "source-layer": "water",
             "interactive": true,
             "paint": {
-                "fill-color": "#BFCBD2"
+                "fill-color": "#87bde8"
             }
         },
         {
@@ -1836,7 +1836,7 @@
             "ref": "road_trunk_primary_casing",
             "interactive": true,
             "paint": {
-                "line-color": "#fea",
+                "line-color": "hsl(34, 100%, 82%)",
                 "line-width": {
                     "base": 1.2,
                     "stops": [
@@ -2733,7 +2733,7 @@
                 "line-cap": "round"
             },
             "paint": {
-                "line-color": "#9e9cab",
+                "line-color": "hsl(0, 0%, 57%)",
                 "line-width": {
                     "base": 1,
                     "stops": [
@@ -2750,7 +2750,8 @@
                             8
                         ]
                     ]
-                }
+                },
+                "line-opacity": 1
             }
         },
         {
@@ -3327,7 +3328,7 @@
                 }
             },
             "paint": {
-                "text-color": "#633",
+                "text-color": "hsl(14, 9%, 35%)",
                 "text-halo-color": "rgba(255,255,255,0.8)",
                 "text-halo-width": 1.2
             }
@@ -4035,7 +4036,7 @@
     ],
     "created": "2016-06-21T17:00:07.738Z",
     "id": "cippp5dil004td6m7hpsiz7r0",
-    "modified": "2016-06-21T17:06:08.008Z",
+    "modified": "2016-07-01T08:17:35.490Z",
     "owner": "tomasklanica",
     "draft": false
 }
