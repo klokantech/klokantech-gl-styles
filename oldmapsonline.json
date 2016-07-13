@@ -64,15 +64,15 @@
         }
     },
     "center": [
-        8.054413947797059,
-        47.098444727144795
+        16.636790003873784,
+        49.196106525826366
     ],
-    "zoom": 8.746653820864093,
+    "zoom": 11.664364698467097,
     "bearing": 0,
     "pitch": 0,
     "sources": {
         "mapbox": {
-            "url": "mapbox://mapbox.mapbox-streets-v7",
+            "url": "mapbox://tomasklanica.1mghpgr4",
             "type": "vector"
         }
     },
@@ -3990,7 +3990,7 @@
     ],
     "created": "2016-06-21T17:00:07.738Z",
     "id": "cippp5dil004td6m7hpsiz7r0",
-    "modified": "2016-07-13T17:56:02.790Z",
+    "modified": "2016-07-13T18:22:10.155Z",
     "owner": "tomasklanica",
     "draft": false
 }
