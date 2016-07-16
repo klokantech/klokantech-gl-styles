@@ -43,11 +43,11 @@
             },
             "1444849307123.581": {
                 "name": "Admin  lines",
-                "collapsed": true
+                "collapsed": false
             },
             "1456163609504.0715": {
                 "name": "Road labels",
-                "collapsed": false
+                "collapsed": true
             },
             "1444849272561.29": {
                 "name": "Place labels",
@@ -59,15 +59,15 @@
             },
             "1444849297111.495": {
                 "name": "POI labels",
-                "collapsed": true
+                "collapsed": false
             }
         }
     },
     "center": [
-        16.62381685134332,
-        49.1621917016912
+        376.60996313644796,
+        49.19562872152676
     ],
-    "zoom": 13.427395532667267,
+    "zoom": 16.094707838429546,
     "bearing": 0,
     "pitch": 0,
     "sources": {
@@ -102,7 +102,7 @@
                 "national_park"
             ],
             "paint": {
-                "fill-color": "hsl(78, 21%, 72%)",
+                "fill-color": "hsl(78, 40%, 83%)",
                 "fill-opacity": 0.75
             }
         },
@@ -139,7 +139,7 @@
                 "cemetery"
             ],
             "paint": {
-                "fill-color": "#e0e4dd"
+                "fill-color": "hsl(94, 7%, 83%)"
             }
         },
         {
@@ -322,8 +322,12 @@
             "source": "mapbox",
             "source-layer": "water",
             "interactive": true,
+            "layout": {
+                "visibility": "visible"
+            },
             "paint": {
-                "fill-color": "#cad5da"
+                "fill-color": "hsl(199, 19%, 69%)",
+                "fill-outline-color": "hsl(199, 9%, 71%)"
             }
         },
         {
@@ -495,12 +499,12 @@
             "ref": "building",
             "interactive": true,
             "paint": {
-                "fill-color": "#d8cfc0",
+                "fill-color": "hsl(38, 29%, 83%)",
                 "fill-opacity": {
                     "base": 1,
                     "stops": [
                         [
-                            15,
+                            14,
                             0
                         ],
                         [
@@ -2733,7 +2737,19 @@
                 "line-cap": "round"
             },
             "paint": {
-                "line-color": "hsl(0, 0%, 57%)",
+                "line-color": {
+                    "base": 1,
+                    "stops": [
+                        [
+                            0,
+                            "hsl(0, 0%, 79%)"
+                        ],
+                        [
+                            5,
+                            "hsl(0, 0%, 61%)"
+                        ]
+                    ]
+                },
                 "line-width": {
                     "base": 1,
                     "stops": [
@@ -2885,7 +2901,8 @@
                 ]
             ],
             "layout": {
-                "line-cap": "round"
+                "line-cap": "round",
+                "visibility": "none"
             },
             "paint": {
                 "line-color": "#a0c8f0",
@@ -2939,52 +2956,6 @@
             }
         },
         {
-            "id": "poi_label_4",
-            "type": "symbol",
-            "metadata": {
-                "mapbox:group": "1444849297111.495"
-            },
-            "source": "mapbox",
-            "source-layer": "poi_label",
-            "minzoom": 16,
-            "interactive": true,
-            "filter": [
-                "all",
-                [
-                    "==",
-                    "$type",
-                    "Point"
-                ],
-                [
-                    "==",
-                    "scalerank",
-                    4
-                ]
-            ],
-            "layout": {
-                "icon-image": "{maki}-11",
-                "text-font": [
-                    "Open Sans Semibold",
-                    "Arial Unicode MS Bold"
-                ],
-                "text-field": "{name_en}",
-                "text-max-width": 9,
-                "text-padding": 2,
-                "text-offset": [
-                    0,
-                    0.6
-                ],
-                "text-anchor": "top",
-                "text-size": 12
-            },
-            "paint": {
-                "text-color": "#666",
-                "text-halo-color": "#ffffff",
-                "text-halo-width": 1,
-                "text-halo-blur": 0.5
-            }
-        },
-        {
             "id": "poi_label_3",
             "type": "symbol",
             "metadata": {
@@ -3005,131 +2976,6 @@
                     "==",
                     "scalerank",
                     3
-                ]
-            ],
-            "layout": {
-                "icon-image": "{maki}-11",
-                "text-font": [
-                    "Open Sans Semibold",
-                    "Arial Unicode MS Bold"
-                ],
-                "text-field": "{name_en}",
-                "text-max-width": 9,
-                "text-padding": 2,
-                "text-offset": [
-                    0,
-                    0.6
-                ],
-                "text-anchor": "top",
-                "text-size": 12
-            },
-            "paint": {
-                "text-color": "#666",
-                "text-halo-color": "#ffffff",
-                "text-halo-width": 1,
-                "text-halo-blur": 0.5
-            }
-        },
-        {
-            "id": "poi_label_2",
-            "type": "symbol",
-            "metadata": {
-                "mapbox:group": "1444849297111.495"
-            },
-            "source": "mapbox",
-            "source-layer": "poi_label",
-            "minzoom": 14,
-            "interactive": true,
-            "filter": [
-                "all",
-                [
-                    "==",
-                    "$type",
-                    "Point"
-                ],
-                [
-                    "==",
-                    "scalerank",
-                    2
-                ]
-            ],
-            "layout": {
-                "icon-image": "{maki}-11",
-                "text-font": [
-                    "Open Sans Semibold",
-                    "Arial Unicode MS Bold"
-                ],
-                "text-field": "{name_en}",
-                "text-max-width": 9,
-                "text-padding": 2,
-                "text-offset": [
-                    0,
-                    0.6
-                ],
-                "text-anchor": "top",
-                "text-size": 12
-            },
-            "paint": {
-                "text-color": "#666",
-                "text-halo-color": "#ffffff",
-                "text-halo-width": 1,
-                "text-halo-blur": 0.5
-            }
-        },
-        {
-            "id": "rail_station_label",
-            "type": "symbol",
-            "metadata": {
-                "mapbox:group": "1444849297111.495"
-            },
-            "source": "mapbox",
-            "source-layer": "rail_station_label",
-            "interactive": true,
-            "layout": {
-                "text-size": 12,
-                "icon-image": "{maki}-11",
-                "text-font": [
-                    "Open Sans Semibold",
-                    "Arial Unicode MS Bold"
-                ],
-                "text-padding": 2,
-                "visibility": "visible",
-                "text-offset": [
-                    0,
-                    0.6
-                ],
-                "text-anchor": "top",
-                "text-field": "{name_en}",
-                "text-max-width": 9
-            },
-            "paint": {
-                "text-color": "#666",
-                "text-halo-color": "#ffffff",
-                "text-halo-width": 1,
-                "text-halo-blur": 0.5
-            }
-        },
-        {
-            "id": "poi_label_1",
-            "type": "symbol",
-            "metadata": {
-                "mapbox:group": "1444849297111.495"
-            },
-            "source": "mapbox",
-            "source-layer": "poi_label",
-            "minzoom": 13,
-            "interactive": true,
-            "filter": [
-                "all",
-                [
-                    "==",
-                    "$type",
-                    "Point"
-                ],
-                [
-                    "==",
-                    "scalerank",
-                    1
                 ]
             ],
             "layout": {
@@ -3458,7 +3304,7 @@
                 }
             },
             "paint": {
-                "text-color": "#74aee9",
+                "text-color": "#667d93",
                 "text-halo-color": "rgba(255,255,255,0.7)",
                 "text-halo-width": 0.75,
                 "text-halo-blur": 0.75
@@ -3509,7 +3355,7 @@
                 }
             },
             "paint": {
-                "text-color": "#74aee9",
+                "text-color": "#667d93",
                 "text-halo-color": "rgba(255,255,255,0.7)",
                 "text-halo-width": 0.75,
                 "text-halo-blur": 0.75
@@ -3610,7 +3456,7 @@
                 }
             },
             "paint": {
-                "text-color": "#74aee9",
+                "text-color": "#667d93",
                 "text-halo-color": "rgba(255,255,255,0.7)",
                 "text-halo-width": 0.75,
                 "text-halo-blur": 0.75
@@ -3660,7 +3506,7 @@
                 }
             },
             "paint": {
-                "text-color": "#74aee9",
+                "text-color": "#667d93",
                 "text-halo-color": "rgba(255,255,255,0.7)",
                 "text-halo-width": 0.75,
                 "text-halo-blur": 0.75
@@ -3711,7 +3557,7 @@
                 }
             },
             "paint": {
-                "text-color": "#74aee9",
+                "text-color": "#667d93",
                 "text-halo-color": "rgba(255,255,255,0.7)",
                 "text-halo-width": 0.75,
                 "text-halo-blur": 0.75
@@ -3817,7 +3663,7 @@
                 }
             },
             "paint": {
-                "text-color": "#74aee9",
+                "text-color": "#667d93",
                 "text-halo-color": "rgba(255,255,255,0.7)",
                 "text-halo-width": 0.75,
                 "text-halo-blur": 0.75
@@ -3968,7 +3814,19 @@
                     "Open Sans Bold",
                     "Arial Unicode MS Bold"
                 ],
-                "text-field": "{name_en}",
+                "text-field": {
+                    "base": 1,
+                    "stops": [
+                        [
+                            0,
+                            ""
+                        ],
+                        [
+                            2,
+                            "{name_en}"
+                        ]
+                    ]
+                },
                 "text-max-width": 6.25,
                 "text-transform": "uppercase",
                 "text-size": {
@@ -3994,7 +3852,7 @@
     ],
     "created": "2016-06-21T17:00:07.738Z",
     "id": "cippp5dil004td6m7hpsiz7r0",
-    "modified": "2016-07-14T12:21:57.885Z",
+    "modified": "2016-07-15T22:38:48.985Z",
     "owner": "tomasklanica",
     "draft": false
 }
