@@ -7,7 +7,7 @@
         "mapbox:groups": {
             "1444849364238.8171": {
                 "name": "Buildings",
-                "collapsed": true
+                "collapsed": false
             },
             "1444849354174.1904": {
                 "name": "Tunnels",
@@ -15,7 +15,7 @@
             },
             "1444849320558.5054": {
                 "name": "Water labels",
-                "collapsed": true
+                "collapsed": false
             },
             "1444849371739.5945": {
                 "name": "Aeroways",
@@ -23,7 +23,7 @@
             },
             "1444849258897.3083": {
                 "name": "Marine labels",
-                "collapsed": true
+                "collapsed": false
             },
             "1444849388993.3071": {
                 "name": "Landuse",
@@ -47,11 +47,11 @@
             },
             "1456163609504.0715": {
                 "name": "Road labels",
-                "collapsed": true
+                "collapsed": false
             },
             "1444849272561.29": {
                 "name": "Place labels",
-                "collapsed": true
+                "collapsed": false
             },
             "1444849334699.1902": {
                 "name": "Bridges",
@@ -64,10 +64,10 @@
         }
     },
     "center": [
-        376.60996313644796,
-        49.19562872152676
+        15.243421369815138,
+        45.7058569681611
     ],
-    "zoom": 16.094707838429546,
+    "zoom": 3.499117217632966,
     "bearing": 0,
     "pitch": 0,
     "sources": {
@@ -347,26 +347,6 @@
             }
         },
         {
-            "id": "water_pattern",
-            "type": "fill",
-            "metadata": {
-                "mapbox:group": "1444849382550.77"
-            },
-            "source": "mapbox",
-            "source-layer": "water",
-            "interactive": true,
-            "layout": {
-                "visibility": "none"
-            },
-            "paint": {
-                "fill-translate": [
-                    0,
-                    2.5
-                ],
-                "fill-pattern": "wave"
-            }
-        },
-        {
             "id": "aeroway_fill",
             "type": "fill",
             "metadata": {
@@ -475,6 +455,9 @@
             "source": "mapbox",
             "source-layer": "building",
             "interactive": true,
+            "layout": {
+                "visibility": "visible"
+            },
             "paint": {
                 "fill-color": {
                     "base": 1,
@@ -2902,7 +2885,7 @@
             ],
             "layout": {
                 "line-cap": "round",
-                "visibility": "none"
+                "visibility": "visible"
             },
             "paint": {
                 "line-color": "#a0c8f0",
@@ -3772,7 +3755,19 @@
                     "Open Sans Bold",
                     "Arial Unicode MS Bold"
                 ],
-                "text-field": "{name_en}",
+                "text-field": {
+                    "base": 1,
+                    "stops": [
+                        [
+                            0,
+                            ""
+                        ],
+                        [
+                            2,
+                            "{name_en}"
+                        ]
+                    ]
+                },
                 "text-max-width": 6.25,
                 "text-transform": "uppercase",
                 "text-size": {
@@ -3852,7 +3847,7 @@
     ],
     "created": "2016-06-21T17:00:07.738Z",
     "id": "cippp5dil004td6m7hpsiz7r0",
-    "modified": "2016-07-15T22:38:48.985Z",
+    "modified": "2016-07-25T19:57:20.077Z",
     "owner": "tomasklanica",
     "draft": false
 }
