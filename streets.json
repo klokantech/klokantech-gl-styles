@@ -1,6 +1,6 @@
 {
     "version": 8,
-    "name": "Streets",
+    "name": "KlokanTech Streets",
     "metadata": {
         "mapbox:autocomposite": true,
         "mapbox:type": "template",
@@ -2919,8 +2919,8 @@
             ],
             "layout": {
                 "text-font": [
-                    "Open Sans Italic",
-                    "Arial Unicode MS Regular"
+                    "Noto Sans Unicode Italic",
+                    "Noto Sans CJK Unicode Regular"
                 ],
                 "text-field": "{name_en}",
                 "text-max-width": 5,
@@ -2958,8 +2958,8 @@
             "layout": {
                 "icon-image": "{maki}-11",
                 "text-font": [
-                    "Open Sans Semibold",
-                    "Arial Unicode MS Bold"
+                    "Noto Sans Unicode Bold",
+                    "Noto Sans CJK Unicode Bold"
                 ],
                 "text-field": "{name_en}",
                 "text-max-width": 9,
@@ -3004,8 +3004,8 @@
             "layout": {
                 "icon-image": "{maki}-11",
                 "text-font": [
-                    "Open Sans Semibold",
-                    "Arial Unicode MS Bold"
+                    "Noto Sans Unicode Bold",
+                    "Noto Sans CJK Unicode Bold"
                 ],
                 "text-field": "{name_en}",
                 "text-max-width": 9,
@@ -3050,8 +3050,8 @@
             "layout": {
                 "icon-image": "{maki}-11",
                 "text-font": [
-                    "Open Sans Semibold",
-                    "Arial Unicode MS Bold"
+                    "Noto Sans Unicode Bold",
+                    "Noto Sans CJK Unicode Bold"
                 ],
                 "text-field": "{name_en}",
                 "text-max-width": 9,
@@ -3083,8 +3083,8 @@
                 "text-size": 12,
                 "icon-image": "{maki}-11",
                 "text-font": [
-                    "Open Sans Semibold",
-                    "Arial Unicode MS Bold"
+                    "Noto Sans Unicode Bold",
+                    "Noto Sans CJK Unicode Bold"
                 ],
                 "text-padding": 2,
                 "visibility": "visible",
@@ -3129,8 +3129,8 @@
             "layout": {
                 "icon-image": "{maki}-11",
                 "text-font": [
-                    "Open Sans Semibold",
-                    "Arial Unicode MS Bold"
+                    "Noto Sans Unicode Bold",
+                    "Noto Sans CJK Unicode Bold"
                 ],
                 "text-field": "{name_en}",
                 "text-max-width": 9,
@@ -3177,8 +3177,8 @@
             "layout": {
                 "icon-image": "{maki}-11",
                 "text-font": [
-                    "Open Sans Semibold",
-                    "Arial Unicode MS Bold"
+                    "Noto Sans Unicode Bold",
+                    "Noto Sans CJK Unicode Bold"
                 ],
                 "text-field": "{name_en}",
                 "text-max-width": 9,
@@ -3214,8 +3214,8 @@
             "layout": {
                 "text-field": "{name_en}",
                 "text-font": [
-                    "Open Sans Regular",
-                    "Arial Unicode MS Regular"
+                    "Noto Sans Unicode Regular",
+                    "Noto Sans CJK Unicode Regular"
                 ],
                 "text-size": {
                     "base": 1,
@@ -3256,8 +3256,8 @@
             "layout": {
                 "text-field": "{ref}",
                 "text-font": [
-                    "Open Sans Semibold",
-                    "Arial Unicode MS Bold"
+                    "Noto Sans Unicode Bold",
+                    "Noto Sans CJK Unicode Bold"
                 ],
                 "text-size": 11,
                 "icon-image": "motorway_{reflen}",
@@ -3300,8 +3300,8 @@
             ],
             "layout": {
                 "text-font": [
-                    "Open Sans Bold",
-                    "Arial Unicode MS Bold"
+                    "Noto Sans Unicode Bold",
+                    "Noto Sans CJK Unicode Bold"
                 ],
                 "text-transform": "uppercase",
                 "text-letter-spacing": 0.1,
@@ -3343,8 +3343,8 @@
             ],
             "layout": {
                 "text-font": [
-                    "Open Sans Regular",
-                    "Arial Unicode MS Regular"
+                    "Noto Sans Unicode Regular",
+                    "Noto Sans CJK Unicode Regular"
                 ],
                 "text-field": "{name_en}",
                 "text-max-width": 8,
@@ -3384,8 +3384,8 @@
             ],
             "layout": {
                 "text-font": [
-                    "Open Sans Regular",
-                    "Arial Unicode MS Regular"
+                    "Noto Sans Unicode Regular",
+                    "Noto Sans CJK Unicode Regular"
                 ],
                 "text-field": "{name_en}",
                 "text-max-width": 8,
@@ -3425,8 +3425,8 @@
             ],
             "layout": {
                 "text-font": [
-                    "Open Sans Semibold",
-                    "Arial Unicode MS Bold"
+                    "Noto Sans Unicode Bold",
+                    "Noto Sans CJK Unicode Bold"
                 ],
                 "text-field": "{name_en}",
                 "text-max-width": 8,
@@ -3474,8 +3474,8 @@
             ],
             "layout": {
                 "text-font": [
-                    "Open Sans Italic",
-                    "Arial Unicode MS Regular"
+                    "Noto Sans Unicode Italic",
+                    "Noto Sans CJK Unicode Regular"
                 ],
                 "text-field": "{name_en}",
                 "text-letter-spacing": 0.2,
@@ -3524,8 +3524,8 @@
             ],
             "layout": {
                 "text-font": [
-                    "Open Sans Italic",
-                    "Arial Unicode MS Regular"
+                    "Noto Sans Unicode Italic",
+                    "Noto Sans CJK Unicode Regular"
                 ],
                 "text-field": "{name_en}",
                 "text-max-width": 6,
@@ -3575,8 +3575,8 @@
             ],
             "layout": {
                 "text-font": [
-                    "Open Sans Italic",
-                    "Arial Unicode MS Regular"
+                    "Noto Sans Unicode Italic",
+                    "Noto Sans CJK Unicode Regular"
                 ],
                 "text-field": "{name_en}",
                 "text-letter-spacing": 0.2,
@@ -3625,8 +3625,8 @@
             ],
             "layout": {
                 "text-font": [
-                    "Open Sans Italic",
-                    "Arial Unicode MS Regular"
+                    "Noto Sans Unicode Italic",
+                    "Noto Sans CJK Unicode Regular"
                 ],
                 "text-field": "{name_en}",
                 "text-max-width": 5,
@@ -3676,8 +3676,8 @@
             ],
             "layout": {
                 "text-font": [
-                    "Open Sans Italic",
-                    "Arial Unicode MS Regular"
+                    "Noto Sans Unicode Italic",
+                    "Noto Sans CJK Unicode Regular"
                 ],
                 "text-field": "{name_en}",
                 "text-letter-spacing": 0.2,
@@ -3726,8 +3726,8 @@
             ],
             "layout": {
                 "text-font": [
-                    "Open Sans Italic",
-                    "Arial Unicode MS Regular"
+                    "Noto Sans Unicode Italic",
+                    "Noto Sans CJK Unicode Regular"
                 ],
                 "text-field": "{name_en}",
                 "text-max-width": 5,
@@ -3777,8 +3777,8 @@
             ],
             "layout": {
                 "text-font": [
-                    "Open Sans Italic",
-                    "Arial Unicode MS Regular"
+                    "Noto Sans Unicode Italic",
+                    "Noto Sans CJK Unicode Regular"
                 ],
                 "text-field": "{name_en}",
                 "text-letter-spacing": 0.2,
@@ -3827,8 +3827,8 @@
             ],
             "layout": {
                 "text-font": [
-                    "Open Sans Italic",
-                    "Arial Unicode MS Regular"
+                    "Noto Sans Unicode Italic",
+                    "Noto Sans CJK Unicode Regular"
                 ],
                 "text-field": "{name_en}",
                 "text-max-width": 5,
@@ -3875,8 +3875,8 @@
             ],
             "layout": {
                 "text-font": [
-                    "Open Sans Bold",
-                    "Arial Unicode MS Bold"
+                    "Noto Sans Unicode Bold",
+                    "Noto Sans CJK Unicode Bold"
                 ],
                 "text-field": "{name_en}",
                 "text-max-width": 6.25,
@@ -3917,8 +3917,8 @@
             ],
             "layout": {
                 "text-font": [
-                    "Open Sans Bold",
-                    "Arial Unicode MS Bold"
+                    "Noto Sans Unicode Bold",
+                    "Noto Sans CJK Unicode Bold"
                 ],
                 "text-field": "{name_en}",
                 "text-max-width": 6.25,
@@ -3959,8 +3959,8 @@
             ],
             "layout": {
                 "text-font": [
-                    "Open Sans Bold",
-                    "Arial Unicode MS Bold"
+                    "Noto Sans Unicode Bold",
+                    "Noto Sans CJK Unicode Bold"
                 ],
                 "text-field": "{name_en}",
                 "text-max-width": 6.25,
@@ -4001,8 +4001,8 @@
             ],
             "layout": {
                 "text-font": [
-                    "Open Sans Bold",
-                    "Arial Unicode MS Bold"
+                    "Noto Sans Unicode Bold",
+                    "Noto Sans CJK Unicode Bold"
                 ],
                 "text-field": "{name_en}",
                 "text-max-width": 6.25,
