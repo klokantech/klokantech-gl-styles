@@ -31,11 +31,11 @@
             },
             "1444849242106.713": {
                 "name": "Country labels",
-                "collapsed": true
+                "collapsed": false
             },
             "1444849382550.77": {
                 "name": "Water",
-                "collapsed": true
+                "collapsed": false
             },
             "1444849345966.4436": {
                 "name": "Roads",
@@ -64,15 +64,15 @@
         }
     },
     "center": [
-        16.617944735689377,
-        49.1926210162479
+        13.29289332412074,
+        44.82054590807212
     ],
-    "zoom": 12.381331384814866,
+    "zoom": 2.531967940268714,
     "bearing": 0,
     "pitch": 0,
     "sources": {
         "mapbox": {
-            "url": "mapbox://mapbox.mapbox-streets-v7",
+            "url": "mapbox://tomasklanica.1mghpgr4",
             "type": "vector"
         }
     },
@@ -324,23 +324,7 @@
             "source-layer": "water",
             "interactive": true,
             "paint": {
-                "fill-color": "hsl(210, 59%, 73%)"
-            }
-        },
-        {
-            "id": "water_offset",
-            "metadata": {
-                "mapbox:group": "1444849382550.77"
-            },
-            "ref": "water",
-            "interactive": true,
-            "paint": {
-                "fill-color": "white",
-                "fill-opacity": 0.3,
-                "fill-translate": [
-                    0,
-                    2.5
-                ]
+                "fill-color": "#b2ceeb"
             }
         },
         {
@@ -4014,7 +3998,7 @@
     ],
     "created": "2016-06-21T16:45:15.344Z",
     "id": "cippom8xv003jcwm6ro6dri1z",
-    "modified": "2016-07-28T06:02:13.114Z",
+    "modified": "2016-07-28T08:26:57.082Z",
     "owner": "tomasklanica",
     "draft": false
 }
