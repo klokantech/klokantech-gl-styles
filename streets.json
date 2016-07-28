@@ -2901,8 +2901,8 @@
             ],
             "layout": {
                 "text-font": [
-                    "Noto Sans Unicode Italic",
-                    "Noto Sans CJK Unicode Regular"
+                    "KlokanTech Noto Sans Italic",
+                    "KlokanTech Noto Sans CJK Regular"
                 ],
                 "text-field": "{name_en}",
                 "text-max-width": 5,
@@ -2940,8 +2940,8 @@
             "layout": {
                 "icon-image": "{maki}-11",
                 "text-font": [
-                    "Noto Sans Unicode Bold",
-                    "Noto Sans CJK Unicode Bold"
+                    "KlokanTech Noto Sans Bold",
+                    "KlokanTech Noto Sans CJK Bold"
                 ],
                 "text-field": "{name_en}",
                 "text-max-width": 9,
@@ -2986,8 +2986,8 @@
             "layout": {
                 "icon-image": "{maki}-11",
                 "text-font": [
-                    "Noto Sans Unicode Bold",
-                    "Noto Sans CJK Unicode Bold"
+                    "KlokanTech Noto Sans Bold",
+                    "KlokanTech Noto Sans CJK Bold"
                 ],
                 "text-field": "{name_en}",
                 "text-max-width": 9,
@@ -3032,8 +3032,8 @@
             "layout": {
                 "icon-image": "{maki}-11",
                 "text-font": [
-                    "Noto Sans Unicode Bold",
-                    "Noto Sans CJK Unicode Bold"
+                    "KlokanTech Noto Sans Bold",
+                    "KlokanTech Noto Sans CJK Bold"
                 ],
                 "text-field": "{name_en}",
                 "text-max-width": 9,
@@ -3065,8 +3065,8 @@
                 "text-size": 12,
                 "icon-image": "{maki}-11",
                 "text-font": [
-                    "Noto Sans Unicode Bold",
-                    "Noto Sans CJK Unicode Bold"
+                    "KlokanTech Noto Sans Bold",
+                    "KlokanTech Noto Sans CJK Bold"
                 ],
                 "text-padding": 2,
                 "visibility": "visible",
@@ -3111,8 +3111,8 @@
             "layout": {
                 "icon-image": "{maki}-11",
                 "text-font": [
-                    "Noto Sans Unicode Bold",
-                    "Noto Sans CJK Unicode Bold"
+                    "KlokanTech Noto Sans Bold",
+                    "KlokanTech Noto Sans CJK Bold"
                 ],
                 "text-field": "{name_en}",
                 "text-max-width": 9,
@@ -3159,8 +3159,8 @@
             "layout": {
                 "icon-image": "{maki}-11",
                 "text-font": [
-                    "Noto Sans Unicode Bold",
-                    "Noto Sans CJK Unicode Bold"
+                    "KlokanTech Noto Sans Bold",
+                    "KlokanTech Noto Sans CJK Bold"
                 ],
                 "text-field": "{name_en}",
                 "text-max-width": 9,
@@ -3196,8 +3196,8 @@
             "layout": {
                 "text-field": "{name_en}",
                 "text-font": [
-                    "Noto Sans Unicode Regular",
-                    "Noto Sans CJK Unicode Regular"
+                    "KlokanTech Noto Sans Regular",
+                    "KlokanTech Noto Sans CJK Regular"
                 ],
                 "text-size": {
                     "base": 1,
@@ -3238,8 +3238,8 @@
             "layout": {
                 "text-field": "{ref}",
                 "text-font": [
-                    "Noto Sans Unicode Bold",
-                    "Noto Sans CJK Unicode Bold"
+                    "KlokanTech Noto Sans Bold",
+                    "KlokanTech Noto Sans CJK Bold"
                 ],
                 "text-size": 11,
                 "icon-image": "motorway_{reflen}",
@@ -3284,8 +3284,8 @@
             ],
             "layout": {
                 "text-font": [
-                    "Noto Sans Unicode Bold",
-                    "Noto Sans CJK Unicode Bold"
+                    "KlokanTech Noto Sans Bold",
+                    "KlokanTech Noto Sans CJK Bold"
                 ],
                 "text-transform": "uppercase",
                 "text-letter-spacing": 0.1,
@@ -3327,8 +3327,8 @@
             ],
             "layout": {
                 "text-font": [
-                    "Noto Sans Unicode Regular",
-                    "Noto Sans CJK Unicode Regular"
+                    "KlokanTech Noto Sans Regular",
+                    "KlokanTech Noto Sans CJK Regular"
                 ],
                 "text-field": "{name_en}",
                 "text-max-width": 8,
@@ -3368,8 +3368,8 @@
             ],
             "layout": {
                 "text-font": [
-                    "Noto Sans Unicode Regular",
-                    "Noto Sans CJK Unicode Regular"
+                    "KlokanTech Noto Sans Regular",
+                    "KlokanTech Noto Sans CJK Regular"
                 ],
                 "text-field": "{name_en}",
                 "text-max-width": 8,
@@ -3409,8 +3409,8 @@
             ],
             "layout": {
                 "text-font": [
-                    "Noto Sans Unicode Bold",
-                    "Noto Sans CJK Unicode Bold"
+                    "KlokanTech Noto Sans Bold",
+                    "KlokanTech Noto Sans CJK Bold"
                 ],
                 "text-field": "{name_en}",
                 "text-max-width": 8,
@@ -3458,8 +3458,8 @@
             ],
             "layout": {
                 "text-font": [
-                    "Noto Sans Unicode Italic",
-                    "Noto Sans CJK Unicode Regular"
+                    "KlokanTech Noto Sans Italic",
+                    "KlokanTech Noto Sans CJK Regular"
                 ],
                 "text-field": "{name_en}",
                 "text-letter-spacing": 0.2,
@@ -3508,8 +3508,8 @@
             ],
             "layout": {
                 "text-font": [
-                    "Noto Sans Unicode Italic",
-                    "Noto Sans CJK Unicode Regular"
+                    "KlokanTech Noto Sans Italic",
+                    "KlokanTech Noto Sans CJK Regular"
                 ],
                 "text-field": "{name_en}",
                 "text-max-width": 6,
@@ -3559,8 +3559,8 @@
             ],
             "layout": {
                 "text-font": [
-                    "Noto Sans Unicode Italic",
-                    "Noto Sans CJK Unicode Regular"
+                    "KlokanTech Noto Sans Italic",
+                    "KlokanTech Noto Sans CJK Regular"
                 ],
                 "text-field": "{name_en}",
                 "text-letter-spacing": 0.2,
@@ -3609,8 +3609,8 @@
             ],
             "layout": {
                 "text-font": [
-                    "Noto Sans Unicode Italic",
-                    "Noto Sans CJK Unicode Regular"
+                    "KlokanTech Noto Sans Italic",
+                    "KlokanTech Noto Sans CJK Regular"
                 ],
                 "text-field": "{name_en}",
                 "text-max-width": 5,
@@ -3660,8 +3660,8 @@
             ],
             "layout": {
                 "text-font": [
-                    "Noto Sans Unicode Italic",
-                    "Noto Sans CJK Unicode Regular"
+                    "KlokanTech Noto Sans Italic",
+                    "KlokanTech Noto Sans CJK Regular"
                 ],
                 "text-field": "{name_en}",
                 "text-letter-spacing": 0.2,
@@ -3710,8 +3710,8 @@
             ],
             "layout": {
                 "text-font": [
-                    "Noto Sans Unicode Italic",
-                    "Noto Sans CJK Unicode Regular"
+                    "KlokanTech Noto Sans Italic",
+                    "KlokanTech Noto Sans CJK Regular"
                 ],
                 "text-field": "{name_en}",
                 "text-max-width": 5,
@@ -3761,8 +3761,8 @@
             ],
             "layout": {
                 "text-font": [
-                    "Noto Sans Unicode Italic",
-                    "Noto Sans CJK Unicode Regular"
+                    "KlokanTech Noto Sans Italic",
+                    "KlokanTech Noto Sans CJK Regular"
                 ],
                 "text-field": "{name_en}",
                 "text-letter-spacing": 0.2,
@@ -3811,8 +3811,8 @@
             ],
             "layout": {
                 "text-font": [
-                    "Noto Sans Unicode Italic",
-                    "Noto Sans CJK Unicode Regular"
+                    "KlokanTech Noto Sans Italic",
+                    "KlokanTech Noto Sans CJK Regular"
                 ],
                 "text-field": "{name_en}",
                 "text-max-width": 5,
@@ -3859,8 +3859,8 @@
             ],
             "layout": {
                 "text-font": [
-                    "Noto Sans Unicode Bold",
-                    "Noto Sans CJK Unicode Bold"
+                    "KlokanTech Noto Sans Bold",
+                    "KlokanTech Noto Sans CJK Bold"
                 ],
                 "text-field": "{name_en}",
                 "text-max-width": 6.25,
@@ -3901,8 +3901,8 @@
             ],
             "layout": {
                 "text-font": [
-                    "Noto Sans Unicode Bold",
-                    "Noto Sans CJK Unicode Bold"
+                    "KlokanTech Noto Sans Bold",
+                    "KlokanTech Noto Sans CJK Bold"
                 ],
                 "text-field": "{name_en}",
                 "text-max-width": 6.25,
@@ -3943,8 +3943,8 @@
             ],
             "layout": {
                 "text-font": [
-                    "Noto Sans Unicode Bold",
-                    "Noto Sans CJK Unicode Bold"
+                    "KlokanTech Noto Sans Bold",
+                    "KlokanTech Noto Sans CJK Bold"
                 ],
                 "text-field": "{name_en}",
                 "text-max-width": 6.25,
@@ -3985,8 +3985,8 @@
             ],
             "layout": {
                 "text-font": [
-                    "Noto Sans Unicode Bold",
-                    "Noto Sans CJK Unicode Bold"
+                    "KlokanTech Noto Sans Bold",
+                    "KlokanTech Noto Sans CJK Bold"
                 ],
                 "text-field": "{name_en}",
                 "text-max-width": 6.25,
