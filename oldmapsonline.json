@@ -64,10 +64,10 @@
         }
     },
     "center": [
-        15.243421369815138,
-        45.7058569681611
+        15.20763067761007,
+        45.26101217623136
     ],
-    "zoom": 3.499117217632966,
+    "zoom": 3.765737411820772,
     "bearing": 0,
     "pitch": 0,
     "sources": {
@@ -2888,7 +2888,7 @@
                 "visibility": "visible"
             },
             "paint": {
-                "line-color": "#a0c8f0",
+                "line-color": "hsl(209, 38%, 68%)",
                 "line-opacity": 0.5,
                 "line-width": {
                     "base": 1,
@@ -3388,7 +3388,7 @@
                 }
             },
             "paint": {
-                "text-color": "#74aee9",
+                "text-color": "#667d93",
                 "text-halo-color": "rgba(255,255,255,0.7)",
                 "text-halo-width": 0.75,
                 "text-halo-blur": 0.75
@@ -3590,7 +3590,7 @@
                 }
             },
             "paint": {
-                "text-color": "#74aee9",
+                "text-color": "#667d93",
                 "text-halo-color": "rgba(255,255,255,0.7)",
                 "text-halo-width": 0.75,
                 "text-halo-blur": 0.75
@@ -3847,7 +3847,7 @@
     ],
     "created": "2016-06-21T17:00:07.738Z",
     "id": "cippp5dil004td6m7hpsiz7r0",
-    "modified": "2016-07-25T19:57:20.077Z",
+    "modified": "2016-07-27T20:15:58.445Z",
     "owner": "tomasklanica",
     "draft": false
 }
