@@ -64,10 +64,10 @@
         }
     },
     "center": [
-        13.29289332412074,
-        44.82054590807212
+        16.57644183738435,
+        49.17176602453691
     ],
-    "zoom": 2.531967940268714,
+    "zoom": 13.779769668023858,
     "bearing": 0,
     "pitch": 0,
     "sources": {
@@ -84,7 +84,7 @@
             "type": "background",
             "interactive": true,
             "paint": {
-                "background-color": "hsl(30, 16%, 94%)"
+                "background-color": "hsl(15, 22%, 94%)"
             }
         },
         {
@@ -102,7 +102,7 @@
                 "national_park"
             ],
             "paint": {
-                "fill-color": "#d8e8c8",
+                "fill-color": "hsl(112, 40%, 85%)",
                 "fill-opacity": 0.75
             }
         },
@@ -121,7 +121,7 @@
                 "park"
             ],
             "paint": {
-                "fill-color": "hsl(105, 36%, 80%)"
+                "fill-color": "hsl(122, 36%, 80%)"
             }
         },
         {
@@ -157,7 +157,7 @@
                 "hospital"
             ],
             "paint": {
-                "fill-color": "hsl(330, 87%, 92%)",
+                "fill-color": "hsl(330, 57%, 88%)",
                 "fill-opacity": 1
             }
         },
@@ -176,7 +176,7 @@
                 "school"
             ],
             "paint": {
-                "fill-color": "hsl(270, 55%, 91%)"
+                "fill-color": "hsl(270, 40%, 88%)"
             }
         },
         {
@@ -194,8 +194,8 @@
                 "wood"
             ],
             "paint": {
-                "fill-color": "#6a4",
-                "fill-opacity": 0.1
+                "fill-color": "#a5d6a7",
+                "fill-opacity": 0.25
             }
         },
         {
@@ -324,7 +324,7 @@
             "source-layer": "water",
             "interactive": true,
             "paint": {
-                "fill-color": "#b2ceeb"
+                "fill-color": "hsl(207, 46%, 83%)"
             }
         },
         {
@@ -460,7 +460,7 @@
             "ref": "building",
             "interactive": true,
             "paint": {
-                "fill-color": "hsl(30, 17%, 87%)",
+                "fill-color": "hsl(30, 14%, 87%)",
                 "fill-opacity": {
                     "base": 1,
                     "stops": [
@@ -1620,7 +1620,7 @@
                 ]
             ],
             "paint": {
-                "line-color": "#cba",
+                "line-color": "hsl(30, 8%, 72%)",
                 "line-dasharray": [
                     1.5,
                     0.75
@@ -1637,7 +1637,8 @@
                             4
                         ]
                     ]
-                }
+                },
+                "line-opacity": 0.7
             }
         },
         {
@@ -3413,7 +3414,7 @@
                 }
             },
             "paint": {
-                "text-color": "#333",
+                "text-color": "hsl(0, 0%, 20%)",
                 "text-halo-color": "rgba(255,255,255,0.8)",
                 "text-halo-width": 1.2
             }
@@ -3998,7 +3999,7 @@
     ],
     "created": "2016-06-21T16:45:15.344Z",
     "id": "cippom8xv003jcwm6ro6dri1z",
-    "modified": "2016-07-28T08:26:57.082Z",
+    "modified": "2016-08-01T11:29:19.755Z",
     "owner": "tomasklanica",
     "draft": false
 }
