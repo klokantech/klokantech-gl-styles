@@ -2,7 +2,6 @@
     "version": 8,
     "name": "KlokanTech Streets",
     "metadata": {
-        "mapbox:autocomposite": true,
         "mapbox:type": "template",
         "mapbox:groups": {
             "1444849364238.8171": {
@@ -23,7 +22,7 @@
             },
             "1444849258897.3083": {
                 "name": "Marine labels",
-                "collapsed": true
+                "collapsed": false
             },
             "1444849388993.3071": {
                 "name": "Landuse",
@@ -31,11 +30,11 @@
             },
             "1444849242106.713": {
                 "name": "Country labels",
-                "collapsed": false
+                "collapsed": true
             },
             "1444849382550.77": {
                 "name": "Water",
-                "collapsed": false
+                "collapsed": true
             },
             "1444849345966.4436": {
                 "name": "Roads",
@@ -47,11 +46,11 @@
             },
             "1456163609504.0715": {
                 "name": "Road labels",
-                "collapsed": true
+                "collapsed": false
             },
             "1444849272561.29": {
                 "name": "Place labels",
-                "collapsed": false
+                "collapsed": true
             },
             "1444849334699.1902": {
                 "name": "Bridges",
@@ -61,17 +60,18 @@
                 "name": "POI labels",
                 "collapsed": true
             }
-        }
+        },
+        "mapbox:trackposition": false
     },
     "center": [
-        16.57644183738435,
-        49.17176602453691
+        16.61527484760785,
+        49.13139517281212
     ],
-    "zoom": 13.779769668023858,
+    "zoom": 9.477644329070388,
     "bearing": 0,
     "pitch": 0,
     "sources": {
-        "mapbox": {
+        "klokantech": {
             "url": "mapbox://tomasklanica.1mghpgr4",
             "type": "vector"
         }
@@ -93,7 +93,7 @@
             "metadata": {
                 "mapbox:group": "1444849388993.3071"
             },
-            "source": "mapbox",
+            "source": "klokantech",
             "source-layer": "landuse_overlay",
             "interactive": true,
             "filter": [
@@ -103,7 +103,19 @@
             ],
             "paint": {
                 "fill-color": "hsl(112, 40%, 85%)",
-                "fill-opacity": 0.75
+                "fill-opacity": {
+                    "base": 1,
+                    "stops": [
+                        [
+                            6,
+                            0
+                        ],
+                        [
+                            8,
+                            0.75
+                        ]
+                    ]
+                }
             }
         },
         {
@@ -112,7 +124,7 @@
             "metadata": {
                 "mapbox:group": "1444849388993.3071"
             },
-            "source": "mapbox",
+            "source": "klokantech",
             "source-layer": "landuse",
             "interactive": true,
             "filter": [
@@ -130,7 +142,7 @@
             "metadata": {
                 "mapbox:group": "1444849388993.3071"
             },
-            "source": "mapbox",
+            "source": "klokantech",
             "source-layer": "landuse",
             "interactive": true,
             "filter": [
@@ -148,7 +160,7 @@
             "metadata": {
                 "mapbox:group": "1444849388993.3071"
             },
-            "source": "mapbox",
+            "source": "klokantech",
             "source-layer": "landuse",
             "interactive": true,
             "filter": [
@@ -167,7 +179,7 @@
             "metadata": {
                 "mapbox:group": "1444849388993.3071"
             },
-            "source": "mapbox",
+            "source": "klokantech",
             "source-layer": "landuse",
             "interactive": true,
             "filter": [
@@ -185,7 +197,7 @@
             "metadata": {
                 "mapbox:group": "1444849388993.3071"
             },
-            "source": "mapbox",
+            "source": "klokantech",
             "source-layer": "landuse",
             "interactive": true,
             "filter": [
@@ -195,7 +207,19 @@
             ],
             "paint": {
                 "fill-color": "#a5d6a7",
-                "fill-opacity": 0.25
+                "fill-opacity": {
+                    "base": 1,
+                    "stops": [
+                        [
+                            6,
+                            0
+                        ],
+                        [
+                            7,
+                            0.25
+                        ]
+                    ]
+                }
             }
         },
         {
@@ -204,7 +228,7 @@
             "metadata": {
                 "mapbox:group": "1444849382550.77"
             },
-            "source": "mapbox",
+            "source": "klokantech",
             "source-layer": "waterway",
             "interactive": true,
             "filter": [
@@ -251,7 +275,7 @@
             "metadata": {
                 "mapbox:group": "1444849382550.77"
             },
-            "source": "mapbox",
+            "source": "klokantech",
             "source-layer": "waterway",
             "interactive": true,
             "filter": [
@@ -285,7 +309,7 @@
             "metadata": {
                 "mapbox:group": "1444849382550.77"
             },
-            "source": "mapbox",
+            "source": "klokantech",
             "source-layer": "waterway",
             "interactive": true,
             "filter": [
@@ -320,7 +344,7 @@
             "metadata": {
                 "mapbox:group": "1444849382550.77"
             },
-            "source": "mapbox",
+            "source": "klokantech",
             "source-layer": "water",
             "interactive": true,
             "paint": {
@@ -333,7 +357,7 @@
             "metadata": {
                 "mapbox:group": "1444849371739.5945"
             },
-            "source": "mapbox",
+            "source": "klokantech",
             "source-layer": "aeroway",
             "minzoom": 11,
             "interactive": true,
@@ -353,7 +377,7 @@
             "metadata": {
                 "mapbox:group": "1444849371739.5945"
             },
-            "source": "mapbox",
+            "source": "klokantech",
             "source-layer": "aeroway",
             "minzoom": 11,
             "interactive": true,
@@ -393,7 +417,7 @@
             "metadata": {
                 "mapbox:group": "1444849371739.5945"
             },
-            "source": "mapbox",
+            "source": "klokantech",
             "source-layer": "aeroway",
             "minzoom": 11,
             "interactive": true,
@@ -433,7 +457,7 @@
             "metadata": {
                 "mapbox:group": "1444849364238.8171"
             },
-            "source": "mapbox",
+            "source": "klokantech",
             "source-layer": "building",
             "interactive": true,
             "paint": {
@@ -497,12 +521,35 @@
             }
         },
         {
+            "id": "housenum-label",
+            "type": "symbol",
+            "metadata": {
+                "mapbox:group": "1444849364238.8171"
+            },
+            "source": "klokantech",
+            "source-layer": "housenum_label",
+            "minzoom": 18,
+            "interactive": true,
+            "layout": {
+                "visibility": "visible",
+                "text-field": "{house_num}",
+                "text-font": [
+                    "KlokanTech Noto Sans Italic",
+                    "KlokanTech Noto Sans CJK Regular"
+                ],
+                "text-size": 12
+            },
+            "paint": {
+                "text-color": "hsl(0, 0%, 73%)"
+            }
+        },
+        {
             "id": "tunnel_motorway_link_casing",
             "type": "line",
             "metadata": {
                 "mapbox:group": "1444849354174.1904"
             },
-            "source": "mapbox",
+            "source": "klokantech",
             "source-layer": "road",
             "interactive": true,
             "filter": [
@@ -558,7 +605,7 @@
             "metadata": {
                 "mapbox:group": "1444849354174.1904"
             },
-            "source": "mapbox",
+            "source": "klokantech",
             "source-layer": "road",
             "interactive": true,
             "filter": [
@@ -609,7 +656,7 @@
             "metadata": {
                 "mapbox:group": "1444849354174.1904"
             },
-            "source": "mapbox",
+            "source": "klokantech",
             "source-layer": "road",
             "interactive": true,
             "filter": [
@@ -660,7 +707,7 @@
             "metadata": {
                 "mapbox:group": "1444849354174.1904"
             },
-            "source": "mapbox",
+            "source": "klokantech",
             "source-layer": "road",
             "interactive": true,
             "filter": [
@@ -723,7 +770,7 @@
             "metadata": {
                 "mapbox:group": "1444849354174.1904"
             },
-            "source": "mapbox",
+            "source": "klokantech",
             "source-layer": "road",
             "interactive": true,
             "filter": [
@@ -767,7 +814,7 @@
             "metadata": {
                 "mapbox:group": "1444849354174.1904"
             },
-            "source": "mapbox",
+            "source": "klokantech",
             "source-layer": "road",
             "interactive": true,
             "filter": [
@@ -818,7 +865,7 @@
             "metadata": {
                 "mapbox:group": "1444849354174.1904"
             },
-            "source": "mapbox",
+            "source": "klokantech",
             "source-layer": "road",
             "interactive": true,
             "filter": [
@@ -873,7 +920,7 @@
             "metadata": {
                 "mapbox:group": "1444849354174.1904"
             },
-            "source": "mapbox",
+            "source": "klokantech",
             "source-layer": "road",
             "interactive": true,
             "filter": [
@@ -1130,7 +1177,7 @@
             "metadata": {
                 "mapbox:group": "1444849354174.1904"
             },
-            "source": "mapbox",
+            "source": "klokantech",
             "source-layer": "road",
             "interactive": true,
             "filter": [
@@ -1206,7 +1253,7 @@
             "metadata": {
                 "mapbox:group": "1444849345966.4436"
             },
-            "source": "mapbox",
+            "source": "klokantech",
             "source-layer": "road",
             "minzoom": 12,
             "interactive": true,
@@ -1260,7 +1307,7 @@
             "metadata": {
                 "mapbox:group": "1444849345966.4436"
             },
-            "source": "mapbox",
+            "source": "klokantech",
             "source-layer": "road",
             "interactive": true,
             "filter": [
@@ -1309,7 +1356,7 @@
             "metadata": {
                 "mapbox:group": "1444849345966.4436"
             },
-            "source": "mapbox",
+            "source": "klokantech",
             "source-layer": "road",
             "minzoom": 13,
             "interactive": true,
@@ -1364,7 +1411,7 @@
             "metadata": {
                 "mapbox:group": "1444849345966.4436"
             },
-            "source": "mapbox",
+            "source": "klokantech",
             "source-layer": "road",
             "interactive": true,
             "filter": [
@@ -1437,7 +1484,7 @@
             "metadata": {
                 "mapbox:group": "1444849345966.4436"
             },
-            "source": "mapbox",
+            "source": "klokantech",
             "source-layer": "road",
             "interactive": true,
             "filter": [
@@ -1484,7 +1531,7 @@
             "metadata": {
                 "mapbox:group": "1444849345966.4436"
             },
-            "source": "mapbox",
+            "source": "klokantech",
             "source-layer": "road",
             "interactive": true,
             "filter": [
@@ -1539,7 +1586,7 @@
             "metadata": {
                 "mapbox:group": "1444849345966.4436"
             },
-            "source": "mapbox",
+            "source": "klokantech",
             "source-layer": "road",
             "minzoom": 5,
             "interactive": true,
@@ -1593,7 +1640,7 @@
             "metadata": {
                 "mapbox:group": "1444849345966.4436"
             },
-            "source": "mapbox",
+            "source": "klokantech",
             "source-layer": "road",
             "interactive": true,
             "filter": [
@@ -1852,7 +1899,7 @@
             "metadata": {
                 "mapbox:group": "1444849345966.4436"
             },
-            "source": "mapbox",
+            "source": "klokantech",
             "source-layer": "road",
             "interactive": true,
             "filter": [
@@ -1928,7 +1975,7 @@
             "metadata": {
                 "mapbox:group": "1444849334699.1902"
             },
-            "source": "mapbox",
+            "source": "klokantech",
             "source-layer": "road",
             "interactive": true,
             "filter": [
@@ -1979,7 +2026,7 @@
             "metadata": {
                 "mapbox:group": "1444849334699.1902"
             },
-            "source": "mapbox",
+            "source": "klokantech",
             "source-layer": "road",
             "interactive": true,
             "filter": [
@@ -2026,7 +2073,7 @@
             "metadata": {
                 "mapbox:group": "1444849334699.1902"
             },
-            "source": "mapbox",
+            "source": "klokantech",
             "source-layer": "road",
             "interactive": true,
             "filter": [
@@ -2077,7 +2124,7 @@
             "metadata": {
                 "mapbox:group": "1444849334699.1902"
             },
-            "source": "mapbox",
+            "source": "klokantech",
             "source-layer": "road",
             "interactive": true,
             "filter": [
@@ -2140,7 +2187,7 @@
             "metadata": {
                 "mapbox:group": "1444849334699.1902"
             },
-            "source": "mapbox",
+            "source": "klokantech",
             "source-layer": "road",
             "interactive": true,
             "filter": [
@@ -2184,7 +2231,7 @@
             "metadata": {
                 "mapbox:group": "1444849334699.1902"
             },
-            "source": "mapbox",
+            "source": "klokantech",
             "source-layer": "road",
             "interactive": true,
             "filter": [
@@ -2235,7 +2282,7 @@
             "metadata": {
                 "mapbox:group": "1444849334699.1902"
             },
-            "source": "mapbox",
+            "source": "klokantech",
             "source-layer": "road",
             "interactive": true,
             "filter": [
@@ -2285,7 +2332,7 @@
             "metadata": {
                 "mapbox:group": "1444849334699.1902"
             },
-            "source": "mapbox",
+            "source": "klokantech",
             "source-layer": "road",
             "interactive": true,
             "filter": [
@@ -2542,7 +2589,7 @@
             "metadata": {
                 "mapbox:group": "1444849334699.1902"
             },
-            "source": "mapbox",
+            "source": "klokantech",
             "source-layer": "road",
             "interactive": true,
             "filter": [
@@ -2617,7 +2664,7 @@
             "metadata": {
                 "mapbox:group": "1444849307123.581"
             },
-            "source": "mapbox",
+            "source": "klokantech",
             "source-layer": "admin",
             "interactive": true,
             "filter": [
@@ -2669,7 +2716,7 @@
             "metadata": {
                 "mapbox:group": "1444849307123.581"
             },
-            "source": "mapbox",
+            "source": "klokantech",
             "source-layer": "admin",
             "interactive": true,
             "filter": [
@@ -2721,7 +2768,7 @@
             "metadata": {
                 "mapbox:group": "1444849307123.581"
             },
-            "source": "mapbox",
+            "source": "klokantech",
             "source-layer": "admin",
             "interactive": true,
             "filter": [
@@ -2776,7 +2823,7 @@
             "metadata": {
                 "mapbox:group": "1444849307123.581"
             },
-            "source": "mapbox",
+            "source": "klokantech",
             "source-layer": "admin",
             "interactive": true,
             "filter": [
@@ -2829,7 +2876,7 @@
             "metadata": {
                 "mapbox:group": "1444849307123.581"
             },
-            "source": "mapbox",
+            "source": "klokantech",
             "source-layer": "admin",
             "interactive": true,
             "filter": [
@@ -2876,7 +2923,7 @@
             "metadata": {
                 "mapbox:group": "1444849320558.5054"
             },
-            "source": "mapbox",
+            "source": "klokantech",
             "source-layer": "water_label",
             "interactive": true,
             "filter": [
@@ -2905,7 +2952,7 @@
             "metadata": {
                 "mapbox:group": "1444849297111.495"
             },
-            "source": "mapbox",
+            "source": "klokantech",
             "source-layer": "poi_label",
             "minzoom": 16,
             "interactive": true,
@@ -2951,7 +2998,7 @@
             "metadata": {
                 "mapbox:group": "1444849297111.495"
             },
-            "source": "mapbox",
+            "source": "klokantech",
             "source-layer": "poi_label",
             "minzoom": 15,
             "interactive": true,
@@ -2997,7 +3044,7 @@
             "metadata": {
                 "mapbox:group": "1444849297111.495"
             },
-            "source": "mapbox",
+            "source": "klokantech",
             "source-layer": "poi_label",
             "minzoom": 14,
             "interactive": true,
@@ -3043,7 +3090,7 @@
             "metadata": {
                 "mapbox:group": "1444849297111.495"
             },
-            "source": "mapbox",
+            "source": "klokantech",
             "source-layer": "rail_station_label",
             "interactive": true,
             "layout": {
@@ -3076,7 +3123,7 @@
             "metadata": {
                 "mapbox:group": "1444849297111.495"
             },
-            "source": "mapbox",
+            "source": "klokantech",
             "source-layer": "poi_label",
             "minzoom": 13,
             "interactive": true,
@@ -3122,7 +3169,7 @@
             "metadata": {
                 "mapbox:group": "1444849297111.495"
             },
-            "source": "mapbox",
+            "source": "klokantech",
             "source-layer": "airport_label",
             "minzoom": 11,
             "interactive": true,
@@ -3170,7 +3217,7 @@
             "metadata": {
                 "mapbox:group": "1456163609504.0715"
             },
-            "source": "mapbox",
+            "source": "klokantech",
             "source-layer": "road_label",
             "interactive": true,
             "filter": [
@@ -3211,7 +3258,7 @@
             "metadata": {
                 "mapbox:group": "1456163609504.0715"
             },
-            "source": "mapbox",
+            "source": "klokantech",
             "source-layer": "road_label",
             "minzoom": 8,
             "interactive": true,
@@ -3221,13 +3268,14 @@
                 6
             ],
             "layout": {
-                "text-field": "{ref}",
+                "text-size": 10,
+                "icon-image": "motorway_{reflen}",
+                "icon-rotation-alignment": "viewport",
+                "symbol-spacing": 500,
                 "text-font": [
-                    "KlokanTech Noto Sans Bold",
+                    "KlokanTech Noto Sans Regular",
                     "KlokanTech Noto Sans CJK Bold"
                 ],
-                "text-size": 11,
-                "icon-image": "motorway_{reflen}",
                 "symbol-placement": {
                     "base": 1,
                     "stops": [
@@ -3241,9 +3289,9 @@
                         ]
                     ]
                 },
-                "symbol-spacing": 500,
+                "visibility": "visible",
                 "text-rotation-alignment": "viewport",
-                "icon-rotation-alignment": "viewport"
+                "text-field": "{ref}"
             },
             "paint": {
                 "icon-opacity": 1
@@ -3255,7 +3303,7 @@
             "metadata": {
                 "mapbox:group": "1444849272561.29"
             },
-            "source": "mapbox",
+            "source": "klokantech",
             "source-layer": "place_label",
             "interactive": true,
             "filter": [
@@ -3302,7 +3350,7 @@
             "metadata": {
                 "mapbox:group": "1444849272561.29"
             },
-            "source": "mapbox",
+            "source": "klokantech",
             "source-layer": "place_label",
             "interactive": true,
             "filter": [
@@ -3343,7 +3391,7 @@
             "metadata": {
                 "mapbox:group": "1444849272561.29"
             },
-            "source": "mapbox",
+            "source": "klokantech",
             "source-layer": "place_label",
             "interactive": true,
             "filter": [
@@ -3384,7 +3432,7 @@
             "metadata": {
                 "mapbox:group": "1444849272561.29"
             },
-            "source": "mapbox",
+            "source": "klokantech",
             "source-layer": "place_label",
             "interactive": true,
             "filter": [
@@ -3425,7 +3473,7 @@
             "metadata": {
                 "mapbox:group": "1444849258897.3083"
             },
-            "source": "mapbox",
+            "source": "klokantech",
             "source-layer": "marine_label",
             "interactive": true,
             "filter": [
@@ -3475,7 +3523,7 @@
             "metadata": {
                 "mapbox:group": "1444849258897.3083"
             },
-            "source": "mapbox",
+            "source": "klokantech",
             "source-layer": "marine_label",
             "interactive": true,
             "filter": [
@@ -3526,7 +3574,7 @@
             "metadata": {
                 "mapbox:group": "1444849258897.3083"
             },
-            "source": "mapbox",
+            "source": "klokantech",
             "source-layer": "marine_label",
             "interactive": true,
             "filter": [
@@ -3576,7 +3624,7 @@
             "metadata": {
                 "mapbox:group": "1444849258897.3083"
             },
-            "source": "mapbox",
+            "source": "klokantech",
             "source-layer": "marine_label",
             "interactive": true,
             "filter": [
@@ -3627,7 +3675,7 @@
             "metadata": {
                 "mapbox:group": "1444849258897.3083"
             },
-            "source": "mapbox",
+            "source": "klokantech",
             "source-layer": "marine_label",
             "interactive": true,
             "filter": [
@@ -3677,7 +3725,7 @@
             "metadata": {
                 "mapbox:group": "1444849258897.3083"
             },
-            "source": "mapbox",
+            "source": "klokantech",
             "source-layer": "marine_label",
             "interactive": true,
             "filter": [
@@ -3728,7 +3776,7 @@
             "metadata": {
                 "mapbox:group": "1444849258897.3083"
             },
-            "source": "mapbox",
+            "source": "klokantech",
             "source-layer": "marine_label",
             "interactive": true,
             "filter": [
@@ -3778,7 +3826,7 @@
             "metadata": {
                 "mapbox:group": "1444849258897.3083"
             },
-            "source": "mapbox",
+            "source": "klokantech",
             "source-layer": "marine_label",
             "interactive": true,
             "filter": [
@@ -3834,7 +3882,7 @@
             "metadata": {
                 "mapbox:group": "1444849242106.713"
             },
-            "source": "mapbox",
+            "source": "klokantech",
             "source-layer": "country_label",
             "interactive": true,
             "filter": [
@@ -3876,7 +3924,7 @@
             "metadata": {
                 "mapbox:group": "1444849242106.713"
             },
-            "source": "mapbox",
+            "source": "klokantech",
             "source-layer": "country_label",
             "interactive": true,
             "filter": [
@@ -3918,7 +3966,7 @@
             "metadata": {
                 "mapbox:group": "1444849242106.713"
             },
-            "source": "mapbox",
+            "source": "klokantech",
             "source-layer": "country_label",
             "interactive": true,
             "filter": [
@@ -3960,7 +4008,7 @@
             "metadata": {
                 "mapbox:group": "1444849242106.713"
             },
-            "source": "mapbox",
+            "source": "klokantech",
             "source-layer": "country_label",
             "interactive": true,
             "filter": [
@@ -3999,7 +4047,7 @@
     ],
     "created": "2016-06-21T16:45:15.344Z",
     "id": "cippom8xv003jcwm6ro6dri1z",
-    "modified": "2016-08-01T11:29:19.755Z",
+    "modified": "2016-08-24T23:36:33.386Z",
     "owner": "tomasklanica",
     "draft": false
 }
